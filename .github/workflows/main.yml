@@ -20,7 +20,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp.sensoryapphouse.com/public_html/speakup-pwa-test
+        ftp-server: ftp.sensoryapphouse.com/public_html/speakup-pwa
         ftp-username: adminftp@261361525195836
         ftp-password: ${{ secrets.FTP_PASSWORD }}
 
