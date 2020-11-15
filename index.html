@@ -2,43 +2,48 @@
 <html>
 
 <head>
-<title>Speak Up - encourage speech and manage speech levels - make the shapes grow!</title>
+    <title>Speak Up - encourage speech and manage speech levels - make the shapes grow!</title>
 
- <link href="css/index.css" rel="stylesheet"/>
-<link rel="manifest" href="manifest.json">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
- <script type="text/javascript" src="js/jscolor.js"></script>
-<script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
-<script type="text/javascript" src="webgl-utils.js"></script>
-	<script src="js/recorderjs/recorder.js"></script>
-	<script src="js/chroma.min.js"></script>
-	<script type="text/javascript" src="main.js"></script>
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="js/jscolor.js"></script>
+    <script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
+    <script type="text/javascript" src="webgl-utils.js"></script>
+    <script src="js/recorderjs/recorder.js"></script>
+    <script src="js/chroma.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 
 </head>
+
 <body>
-<div id="container">
-    <canvas id="analyser" width="1024" height="500"></canvas>
-    <splash class = "img" enabled></splash>
-    <panel class = "img" enabled></panel>
-    <button class="btn" enabled></button>
-    <button1 class="btn" enabled></button1>
-    <button2 class="btn" enabled></button2>
-    <button3 class="btn" enabled></button3>
-    <button4 class="btn" enabled></button4>
-    <button5 class="btn" enabled></button5>
-    <button6 class="btn" enabled></button6>
-    <button7 class="btn" enabled></button7>
-    <foreground class="btn" enabled></foreground>
-    <rainbow class="btn" enabled></rainbow>
-    <background class="btn" enabled></background>
-    <fcol class="canvas" enabled></fcol>
-    <bcol class="canvas" enabled></bcol>
-    <settings class="btn" enabled></settings>
-    <back class="btn" hidden enabled></back>
-    <plus class="btn" hidden enabled></plus>
-    <progress value="0" max="100" id = "progress"></progress>
-    <input class="color" id="myColor">
-</div>
+    <div id="container">
+        <portraitCover>
+            <smartphone display="none"></smartphone>
+        </portraitCover>
+        <canvas id="analyser" width="1024" height="500"></canvas>
+        <splash class="img" enabled></splash>
+        <panel class="img" enabled></panel>
+        <button class="btn" enabled></button>
+        <button1 class="btn" enabled></button1>
+        <button2 class="btn" enabled></button2>
+        <button3 class="btn" enabled></button3>
+        <button4 class="btn" enabled></button4>
+        <button5 class="btn" enabled></button5>
+        <button6 class="btn" enabled></button6>
+        <button7 class="btn" enabled></button7>
+        <foreground class="btn" enabled></foreground>
+        <rainbow class="btn" enabled></rainbow>
+        <background class="btn" enabled></background>
+        <fcol class="canvas" enabled></fcol>
+        <bcol class="canvas" enabled></bcol>
+        <settings class="btn" enabled></settings>
+        <back class="btn" hidden enabled></back>
+        <plus class="btn" hidden enabled></plus>
+        <progress value="0" max="100" id="progress"></progress>
+        <input class="color" id="myColor">
+    </div>
 </body>
+
 </html>
